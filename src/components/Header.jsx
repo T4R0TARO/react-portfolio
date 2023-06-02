@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import "../styles/Header.css";
 
 export default function Header() {
   const [hideToggleMenu, setHideToggleMenu] = useState(true);
