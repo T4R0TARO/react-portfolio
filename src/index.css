@@ -26,7 +26,8 @@ a {
   text-decoration: none;
 }
 
-button {
+button,
+.btn {
   border-radius: 5px;
   border: 3px solid black;
   padding: 0.6em 1.2em;
@@ -37,10 +38,12 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+.btn:hover,
 button:hover {
   border-color: #646cff;
 }
-
+.btn:focus,
+.btn:focus-visible,
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;

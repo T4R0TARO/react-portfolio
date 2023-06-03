@@ -54,6 +54,7 @@ header {
     background: lightgrey;
     justify-content: center;
     align-items: flex-start;
+    padding-bottom: 3.5rem;
   }
 
   /* show toggle btn in mobile */
@@ -73,5 +74,11 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+  }
+
+  .download-cv {
+    position: absolute;
+    top: 320px;
+    left: 10px;
   }
 }
