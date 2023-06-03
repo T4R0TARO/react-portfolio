@@ -1,0 +1,35 @@
+/* FOOTER STYLES */
+
+.footer {
+  background: lightgray;
+  padding: 30px;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__copyrite {
+  margin-inline: auto;
+}
+
+.footer__list {
+  margin-inline: auto;
+}
+
+.footer__list * {
+  display: inline-block;
+}
+
+.footer__list > li:not(:last-child) {
+  margin-inline-end: 40px;
+}
+
+@media (max-width: 720px) {
+  .footer__container {
+    display: flex;
+    flex-direction: column;
+  }
+}
