@@ -1,0 +1,40 @@
+/* ABOUT STYLES */
+
+.about__container {
+  margin-top: 6rem;
+  text-align: center;
+  max-width: 800px;
+}
+
+.about__name {
+  font-size: 2em;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+
+.about__subtitle {
+  font-size: 1.5em;
+  text-transform: capitalize;
+}
+
+.about__city {
+  font-size: 1rem;
+}
+
+.about__img {
+  height: 300px;
+  width: auto;
+  margin-bottom: 1rem;
+}
+
+.about__container h2 {
+  margin-bottom: 1rem;
+}
+
+.about__text {
+  margin-bottom: 1.5rem;
+}
+
+.view-profile {
+  text-transform: capitalize;
+}
