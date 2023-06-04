@@ -1,0 +1,31 @@
+/* SKILLS STYLES */
+
+.skills {
+  padding: 3rem;
+}
+
+.skills__title {
+  margin-bottom: 2rem;
+  text-transform: capitalize;
+}
+
+.skills__grid {
+  display: grid;
+  text-align: center;
+  grid-template: 1fr / repeat(5, auto);
+  grid-gap: 20px;
+  margin-bottom: 2rem;
+}
+
+.skills__img {
+  font-size: 4rem;
+}
+
+@media (max-width: 700px) {
+  .skills__grid {
+    grid-template: 1fr / repeat(3, auto);
+  }
+  .skills__img {
+    font-size: 3rem;
+  }
+}
