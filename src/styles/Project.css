@@ -1,0 +1,32 @@
+/* PROJECT STYLES */
+
+.project__container {
+  position: relative;
+  padding: 2rem;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.project__img {
+  height: 250px;
+  max-width: 250px;
+  object-fit: cover;
+  object-position: top;
+  margin-bottom: 1rem;
+  border-radius: 15px;
+}
+
+.project__link-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.project__stack-container {
+  margin-bottom: 2rem;
+}
+
+.project__container span {
+  margin-right: 8px;
+}

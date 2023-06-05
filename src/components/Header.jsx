@@ -21,7 +21,7 @@ export default function Header() {
       <nav className={`navbar ${hideToggleMenu ? "navbar-hide" : ""}`}>
         <ul className="navbar-links">
           <li>
-            <a href="#home" className="navbar-link">
+            <a href="#about" className="navbar-link">
               Home
             </a>
           </li>
