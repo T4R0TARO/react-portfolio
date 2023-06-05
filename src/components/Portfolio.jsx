@@ -4,7 +4,6 @@ import PortfolioData from "../data/portfolio";
 import "../styles/Portfolio.css";
 
 export default function Portfolio() {
-  console.log(PortfolioData);
   return (
     <section className="portfolio" id="portfolio">
       <h2 className="portfolio__title">projects</h2>
