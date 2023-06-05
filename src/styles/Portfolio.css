@@ -1,0 +1,25 @@
+/* PORTFOLIO STYLES */
+
+.portfolio {
+  text-align: center;
+  padding: 4rem;
+}
+
+.portfolio__title {
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.portfolio__container {
+  display: grid;
+  grid-template: 1fr / repeat(3, auto);
+  text-align: center;
+  grid-gap: 20px;
+}
+
+@media (max-width: 1200px) {
+  .portfolio__container {
+    grid-template-columns: minmax(320px, 600px);
+    justify-content: center;
+  }
+}

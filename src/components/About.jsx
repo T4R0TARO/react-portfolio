@@ -23,7 +23,7 @@ export default function About() {
           to continue to grow as a developer. When I'm not coding, I spend my
           free time, drawing, reading, or enjoying boba.
         </p>
-        <a className="view-profile btn" href="#portfolio-projects">
+        <a className="view-profile btn" href="#portfolio">
           view portfolio
         </a>
       </div>
