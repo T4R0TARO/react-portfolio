@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "../styles/Header.css";
+import resume from "/josh-resume-dev.pdf";
 
 export default function Header() {
   const [hideToggleMenu, setHideToggleMenu] = useState(true);
@@ -46,8 +47,13 @@ export default function Header() {
             </a>
           </li>
           <li>
-            <a href="#" className="btn  download-cv">
-              Download CV
+            <a
+              href="./josh-resume-dev.pdf"
+              className="btn  download-cv"
+              download={resume}
+              target="_blank"
+            >
+              Resume
             </a>
           </li>
         </ul>
