@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/About.css";
-import AboutImage from "../images/filler-img.png";
+import AboutImage from "../images/profile-img.png";
 
 export default function About() {
   return (
