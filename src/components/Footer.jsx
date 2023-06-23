@@ -19,7 +19,7 @@ export default function Footer() {
               target="_blank"
               className="footer__link"
             >
-              Github
+              <i className="devicon-github-original"></i>
             </a>
           </li>
           <li>
@@ -28,7 +28,7 @@ export default function Footer() {
               target="_blank"
               className="footer__link"
             >
-              Linkindn
+              <i className="devicon-linkedin-plain"></i>
             </a>
           </li>
           <li>
@@ -37,7 +37,7 @@ export default function Footer() {
               target="_blank"
               className="footer__link"
             >
-              Twitter
+              <i className="devicon-twitter-original"></i>
             </a>
           </li>
         </ul>

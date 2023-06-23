@@ -1,7 +1,7 @@
 /* SKILLS STYLES */
 
 .skills {
-  padding: 3rem;
+  padding: 6rem;
 }
 
 .skills__title {
@@ -27,5 +27,11 @@
   }
   .skills__img {
     font-size: 3rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .skills {
+    padding: 3rem;
   }
 }
