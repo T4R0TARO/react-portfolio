@@ -40,6 +40,15 @@ export default function Footer() {
               <i className="devicon-twitter-original"></i>
             </a>
           </li>
+          <li>
+            <a
+              href="https://github.com/T4R0TARO/react-portfolio"
+              className="btn"
+              target="_blank"
+            >
+              Repo Link
+            </a>
+          </li>
         </ul>
       </div>
     </footer>
