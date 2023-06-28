@@ -7,11 +7,11 @@ export default [
     repo: "https://github.com/T4R0TARO/tenzies-game",
   },
   {
-    title: "ToDo App",
-    imgUrl: "./todo-app-react.png",
+    title: "Anime Database",
+    imgUrl: "./anime-data-app.png",
     stack: ["HTML", "CSS", "JavaScript", "React", "Vite"],
-    link: "https://t4r0taro.github.io/todo-list-app/",
-    repo: "https://github.com/T4R0TARO/todo-list-app",
+    link: "https://t4r0taro.github.io/anime-database/",
+    repo: "https://github.com/T4R0TARO/anime-database",
   },
   {
     title: "TicTacToe App",
